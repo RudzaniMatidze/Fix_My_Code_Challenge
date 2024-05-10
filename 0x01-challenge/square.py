@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""
+A script that calculates a square
+"""
 
 class square():
+    """Documentation"""
     
     width = 0
     height = 0
