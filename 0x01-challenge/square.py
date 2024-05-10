@@ -3,9 +3,9 @@
 A script that calculates a square
 """
 
+
 class square():
-    """Documentation"""
-    
+    """Sqaure class"""
     width = 0
     height = 0
 
@@ -24,10 +24,12 @@ class square():
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
-        """Documentation"""
+        """String Rep of the square instance"""
         return "{}/{}".format(self.width, self.height)
 
+
 if __name__ == "__main__":
+    """creating an instance"""
 
     s = square(width=12, height=9)
     print(s)
